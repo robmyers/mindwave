@@ -33,6 +33,6 @@ var outS = kefir.zip([
 ]).map(toObj)
 
 console.log('connecting')
-mw.connect('/dev/cu.MindWaveMobile-DevA');
+mw.connect('/dev/ttyUSB0');
 
 outS.log()
